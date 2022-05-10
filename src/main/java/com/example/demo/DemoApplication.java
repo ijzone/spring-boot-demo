@@ -21,6 +21,6 @@ public class DemoApplication {
 	
 	@GetMapping("/person")
 	public Person personInfo() {
-		return new Person("Bran", "M");
+		return new Person("Brandon", "M");
 	}
 }
